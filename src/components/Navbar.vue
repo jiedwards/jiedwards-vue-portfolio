@@ -1,20 +1,17 @@
 <template>
-  <nav>
-    <div class="nav-wrapper #ff1100">
-      <div class="container-fluid">
-        <ul class="left">
-          <a type="button">
-            Jacob Edwards Portfolio
+  <nav class="nav-wrapper blue lighten-1">
+    <div class="container-fluid">
+      <ul class="left">
+        <li>
+          <a type="button" href="/"> Jacob Edwards Portfolio </a>
+        </li>
+        <li>
+          <a class="button" href="../assets/CV-Jacob_Edwards.pdf"
+            >Resume
             <i class="material-icons right">person</i>
           </a>
-
-          Resume
-        
-            <a class="nav-link" href="../assets/CV - Jacob Edwards.pdf"
-              >Resume</a
-            >
-        </ul>
-      </div>
+        </li>
+      </ul>
     </div>
   </nav>
 </template>

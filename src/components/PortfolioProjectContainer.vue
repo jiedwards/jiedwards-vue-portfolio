@@ -2,7 +2,6 @@
   <div v-if="isLoading === true">Loading...</div>
   <div v-if="hasError === true">Error</div>
   <div v-else>
-    <div class="container">
       <div class="container" v-for="project in data" v-bind:key="project.id">
         <PortfolioItem
           :title="project.name"
@@ -13,7 +12,6 @@
         >
         </PortfolioItem>
       </div>
-    </div>
   </div>
 </template>
 
